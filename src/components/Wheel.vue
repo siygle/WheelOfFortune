@@ -347,7 +347,7 @@ const handleClose = (): void => {
     <span
       v-if="!isSpinning"
       class="wheel_title absolute top-1/3 select-none text-2xl font-bold text-white md:text-3xl 2xl:text-4xl"
-      >Click to Spin!</span
+      >抽獎</span
     >
   </div>
   <Transition name="fade">

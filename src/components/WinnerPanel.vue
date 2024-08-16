@@ -6,7 +6,7 @@ defineEmits(["remove-entry", "close"]);
   <div
     class="w-1/2 max-w-md rounded-xl border-2 bg-neutral-900 p-4 text-center"
   >
-    <h1 class="text-lg text-slate-100 sm:text-2xl">The winner is:</h1>
+    <h1 class="text-lg text-slate-100 sm:text-2xl">得獎者：</h1>
     <div class="text-2xl text-slate-100 sm:text-3xl">
       <slot></slot>
     </div>

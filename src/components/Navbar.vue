@@ -24,14 +24,14 @@ onClickOutside(customizationWindow, closeModal);
       <a
         id="#home"
         class="button-transition select-none text-lg font-bold text-slate-100 hover:scale-105 hover:cursor-pointer sm:text-xl lg:text-2xl xl:text-3xl"
-        >Spin The Wheel</a
+        >宗教教育週抽獎活動</a
       >
-      <button
+      <!-- <button
         class="button-transition text-slate-100 hover:scale-110 sm:text-lg lg:text-xl xl:text-2xl"
         @click="openModal"
       >
         Spin time
-      </button>
+      </button> -->
     </div>
   </nav>
   <Transition name="fade">

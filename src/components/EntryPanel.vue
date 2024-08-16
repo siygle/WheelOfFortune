@@ -7,12 +7,12 @@ const entries = ref("");
 
 // Set default entry names
 const defaultEntryNames = [
-  "Entry 1",
-  "Entry 2",
-  "Entry 3",
-  "Entry 4",
-  "Entry 5",
-  "Entry 6",
+  "編號1",
+  "編號2",
+  "編號3",
+  "編號4",
+  "編號5",
+  "編號6"
 ];
 
 // Initialize entryNames with default values
@@ -41,14 +41,14 @@ watchEffect(() => {
     <div
       class="flex select-none justify-evenly text-lg text-slate-100 sm:text-2xl"
     >
-      Entries
+      參加人數
     </div>
 
     <div class="mt-1 grow rounded-xl bg-[#1E1E1E] p-3">
       <textarea
         type="text"
         v-model="entries"
-        placeholder="Entry 1, Entry 2; Entry3;&#10;Entry 4; Entry 5, Entry 6 &#10;&#10;Split your entries by using ',' or ';' &#10;or new line."
+        placeholder="編號1;編號2;編號3;編號4;編號5;編號6"
         class="button-transition h-[60vh] w-full resize-none rounded-xl border border-slate-400 bg-transparent px-2 py-1 text-slate-100 hover:border-white focus:border-white focus:outline-none lg:h-full"
       >
       
